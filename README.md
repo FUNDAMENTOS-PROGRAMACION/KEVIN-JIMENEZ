@@ -19,5 +19,10 @@ ccomentario
 1. poli
 
 ### link
-[este es un link](https://busy.org/@jessfrendcor/utilidad-del-codigo-ascii-en-los-blog-y-post-de-steemit-haz-la-prueba)
+![este es un link](https://img.blogs.es/anexom/wp-content/uploads/2014/10/google-logo-874x288-e1414130761105.png)
+
+```python
+a = 1
+```
+
 
