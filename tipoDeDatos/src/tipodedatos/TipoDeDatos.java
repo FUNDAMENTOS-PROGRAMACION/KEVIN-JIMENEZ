@@ -20,14 +20,31 @@ public class TipoDeDatos {
     double numeroDouble = 3;
     char letra = 'A';
     String caderna = "hola mundo"; 
-    boolean valorBool = false;    
+    boolean valorBool = false; 
+    // valorBool = true;
     boolean valorBoola = false;
     
+    
    
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {  
+        imprimirNombre();  
+        sumar2Numeros(3,2);        
+        System.out
+        .println(sumar2Numeros(3,2));
         // TODO code application logic here
     }
+                    
+    
+    public static void imprimirNombre(){
+        System.out.println("kevin");
+    }
+    
+    public static int sumar2Numeros
+        (int num1, int num2){
+        int suma = num1 + num2;
+        return suma;
+    }
+            
     
     // comentario de una linea        
     /*
