@@ -5,6 +5,8 @@
  */
 package tipodedatos;
 
+import java.util.Arrays;
+
 /**
  *
  * @author SISTEMAS CORP
@@ -36,7 +38,18 @@ public class TipoDeDatos {
                     
     
     public static void imprimirNombre(){
-        System.out.println("kevin");
+        // System.out.println("\n kevin \n jimenez \n");
+        // System.out.println("kev\tin");
+        String nombre = "kevin";
+        // System.out.println(nombre.length());
+        // System.out.println(nombre.trim());
+        // System.out.println(nombre.toUpperCase());
+        // System.out.println(nombre.toLowerCase());
+        // System.out.println(nombre.replace(nombre, "1"));
+        String [] arreglo =  nombre.split("");
+        
+        System.out.println(Arrays.toString(arreglo));
+        
     }
     
     public static int sumar2Numeros
